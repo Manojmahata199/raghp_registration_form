@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.eng-label{font-family: 'Roboto', sans-serif;}
+.hindi-label{font-family:freeserif;}
+.high-light{color:#bb3127;}
+table{ border-collapse: collapse;}
+p, td { font-family: freeserif;background-color:#F7F2B0;}
+hr{color:#bb3127;}
+

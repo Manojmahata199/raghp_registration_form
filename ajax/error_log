@@ -1,0 +1,95 @@
+[07-Feb-2024 07:48:46 America/Chicago] PHP Warning:  Undefined variable $url in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 155
+[07-Feb-2024 07:48:46 America/Chicago] PHP Warning:  Undefined variable $url in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 155
+[07-Feb-2024 07:48:47 America/Chicago] PHP Warning:  Undefined variable $url in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 155
+[07-Feb-2024 07:48:47 America/Chicago] PHP Warning:  Undefined variable $url in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 155
+[07-Feb-2024 07:48:47 America/Chicago] PHP Warning:  Undefined variable $url in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 155
+[07-Feb-2024 07:48:57 America/Chicago] PHP Warning:  Undefined variable $url in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 155
+[07-Feb-2024 07:49:38 America/Chicago] PHP Warning:  Undefined variable $url in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 155
+[05-Mar-2024 07:08:21 America/Chicago] PHP Fatal error:  Uncaught Error: Undefined constant "console" in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php:165
+Stack trace:
+#0 {main}
+  thrown in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 165
+[05-Mar-2024 07:11:27 America/Chicago] PHP Fatal error:  Uncaught Error: Undefined constant "console" in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php:165
+Stack trace:
+#0 {main}
+  thrown in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 165
+[05-Mar-2024 07:17:49 America/Chicago] PHP Fatal error:  Uncaught Error: Undefined constant "console" in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php:165
+Stack trace:
+#0 {main}
+  thrown in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 165
+[18-Mar-2024 02:45:34 America/Chicago] PHP Warning:  Undefined array key "word" in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 8
+[18-Mar-2024 02:45:35 America/Chicago] PHP Fatal error:  Uncaught Google\Cloud\Core\Exception\BadRequestException: {
+  "error": {
+    "code": 400,
+    "message": "Required Text",
+    "errors": [
+      {
+        "message": "Required Text",
+        "domain": "global",
+        "reason": "required"
+      }
+    ],
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.BadRequest",
+        "fieldViolations": [
+          {
+            "field": "q",
+            "description": "No text queries provided."
+          }
+        ]
+      }
+    ]
+  }
+}
+ in /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RequestWrapper.php:435
+Stack trace:
+#0 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RequestWrapper.php(232): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RestTrait.php(102): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-translate/src/V2/Connection/Rest.php(89): Google\Cloud\Translate\V2\Connection\Rest->send('translations', 'translate', Array)
+#3 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-translate/src/V2/TranslateClient.php(253): Google\Cloud\Translate\V2\Connection\Rest->listTranslations(Array)
+#4 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-translate/src/V2/TranslateClient.php(187): Google\Cloud\Translate\V2\TranslateClient->translateBatch(Array, Array)
+#5 /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php(15): Google\Cloud\Translate\V2\TranslateClient->translate(NULL, Array)
+#6 {main}
+  thrown in /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RequestWrapper.php on line 435
+[18-Mar-2024 02:46:06 America/Chicago] PHP Warning:  Undefined array key "word" in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 8
+[18-Mar-2024 02:46:06 America/Chicago] PHP Fatal error:  Uncaught Google\Cloud\Core\Exception\BadRequestException: {
+  "error": {
+    "code": 400,
+    "message": "Required Text",
+    "errors": [
+      {
+        "message": "Required Text",
+        "domain": "global",
+        "reason": "required"
+      }
+    ],
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.BadRequest",
+        "fieldViolations": [
+          {
+            "field": "q",
+            "description": "No text queries provided."
+          }
+        ]
+      }
+    ]
+  }
+}
+ in /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RequestWrapper.php:435
+Stack trace:
+#0 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RequestWrapper.php(232): Google\Cloud\Core\RequestWrapper->convertToGoogleException(Object(GuzzleHttp\Exception\ClientException))
+#1 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RestTrait.php(102): Google\Cloud\Core\RequestWrapper->send(Object(GuzzleHttp\Psr7\Request), Array)
+#2 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-translate/src/V2/Connection/Rest.php(89): Google\Cloud\Translate\V2\Connection\Rest->send('translations', 'translate', Array)
+#3 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-translate/src/V2/TranslateClient.php(253): Google\Cloud\Translate\V2\Connection\Rest->listTranslations(Array)
+#4 /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-translate/src/V2/TranslateClient.php(187): Google\Cloud\Translate\V2\TranslateClient->translateBatch(Array, Array)
+#5 /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php(15): Google\Cloud\Translate\V2\TranslateClient->translate(NULL, Array)
+#6 {main}
+  thrown in /home4/sanmatob/public_html/ragp/google_tranlate_new/vendor/google/cloud-core/src/RequestWrapper.php on line 435
+[20-Mar-2024 00:47:14 America/Chicago] PHP Warning:  Undefined variable $text in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 64
+[20-Mar-2024 00:47:16 America/Chicago] PHP Warning:  Undefined variable $text in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 64
+[20-Mar-2024 00:47:18 America/Chicago] PHP Warning:  Undefined variable $text in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 64
+[20-Mar-2024 00:47:19 America/Chicago] PHP Warning:  Undefined variable $text in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 64
+[20-Mar-2024 00:47:20 America/Chicago] PHP Warning:  Undefined variable $text in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 64
+[20-Mar-2024 00:57:48 America/Chicago] PHP Warning:  Undefined array key "word" in /home4/sanmatob/public_html/ragp/ajax/bingtranslation.php on line 32
