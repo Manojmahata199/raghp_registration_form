@@ -3,7 +3,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";	
-	$dbName = "sanmatob_rag2022";
+	$dbName = "##############";
 
 // $base_url = '//rag2020/';
 // $rootUrl = '//rag2020/';
